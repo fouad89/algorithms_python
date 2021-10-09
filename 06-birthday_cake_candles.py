@@ -12,10 +12,14 @@ def birthday_candles(candles):
     return counter
 
 
-
+def alternative(candles):
+    return candles.count(max(candles))
 
 
 if __name__ == '__main__':
     test_candles = [4, 4, 1, 3]
 
     print(birthday_candles(test_candles))
+    print("Alternative Method: ")
+    print(alternative(test_candles))
+    
