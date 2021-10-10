@@ -23,4 +23,4 @@ if __name__ == '__main__':
     test2 = [7, 69, 2, 221, 8974]
     min_max_sum(test_arr)
     min_max_sum(test2)
-    
+        
