@@ -15,7 +15,7 @@ class Individual:
     def getFitness(self):
         return self.fitness
 
-    def computeFitness(self):
+    def computeFitness(self, target):
         score = 0.0
         for i in range(0, len(self.genes)):
             if self.genes[i] == target[i]:
